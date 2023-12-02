@@ -1,0 +1,21 @@
+body
+{
+background-color:pink;
+
+}
+
+
+
+@keyframes moveImage {
+  
+  0% {left:0px;top:0px; }
+  25% { left:1300px;top:0px; }
+  50% { left:1300px;top:500px;}
+  75% { left:0px;top:500px; }
+  100% {left:0px;top:0px; }
+    }
+
+.moving-image {
+  position: relative;
+  animation: moveImage 5s linear infinite;
+}
